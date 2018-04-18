@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31F6ACD97174A5D898F106D3 /* libPods-NRAdViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC8B71D39957630B229EBA3B /* libPods-NRAdViewDemo.a */; };
+		B53332CB20876F9300497B10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B53332CA20876F9300497B10 /* AppDelegate.m */; };
+		B53332CE20876F9300497B10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B53332CD20876F9300497B10 /* ViewController.m */; };
+		B53332D120876F9300497B10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B53332CF20876F9300497B10 /* Main.storyboard */; };
+		B53332D320876F9400497B10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B53332D220876F9400497B10 /* Assets.xcassets */; };
+		B53332D620876F9400497B10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B53332D420876F9400497B10 /* LaunchScreen.storyboard */; };
+		B53332D920876F9400497B10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B53332D820876F9400497B10 /* main.m */; };
+		B53332E2208770BE00497B10 /* NRAdCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B53332E1208770BE00497B10 /* NRAdCollectionViewLayout.m */; };
+		B53332E5208772F400497B10 /* NRAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = B53332E4208772F400497B10 /* NRAdView.m */; };
+		B53332ED208774AF00497B10 /* NRAdViewRenderDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = B53332EC208774AF00497B10 /* NRAdViewRenderDelegate.h */; };
+		B53332F12087765B00497B10 /* NRAdBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B53332F02087765B00497B10 /* NRAdBannerView.m */; };
+		B53332F4208776CE00497B10 /* NRAdCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B53332F3208776CE00497B10 /* NRAdCollectionViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		50315F3DD2A1FD828DCB0F42 /* Pods-NRAdViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NRAdViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-NRAdViewDemo/Pods-NRAdViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		AC8B71D39957630B229EBA3B /* libPods-NRAdViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NRAdViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B53332C620876F9300497B10 /* NRAdViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NRAdViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B53332C920876F9300497B10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B53332CA20876F9300497B10 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B53332CC20876F9300497B10 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B53332CD20876F9300497B10 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B53332D020876F9300497B10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B53332D220876F9400497B10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B53332D520876F9400497B10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B53332D720876F9400497B10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B53332D820876F9400497B10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B53332E0208770BE00497B10 /* NRAdCollectionViewLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NRAdCollectionViewLayout.h; sourceTree = "<group>"; };
+		B53332E1208770BE00497B10 /* NRAdCollectionViewLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NRAdCollectionViewLayout.m; sourceTree = "<group>"; };
+		B53332E3208772F400497B10 /* NRAdView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NRAdView.h; sourceTree = "<group>"; };
+		B53332E4208772F400497B10 /* NRAdView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NRAdView.m; sourceTree = "<group>"; };
+		B53332EC208774AF00497B10 /* NRAdViewRenderDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NRAdViewRenderDelegate.h; sourceTree = "<group>"; };
+		B53332EF2087765B00497B10 /* NRAdBannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NRAdBannerView.h; sourceTree = "<group>"; };
+		B53332F02087765B00497B10 /* NRAdBannerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NRAdBannerView.m; sourceTree = "<group>"; };
+		B53332F2208776CE00497B10 /* NRAdCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NRAdCollectionViewCell.h; sourceTree = "<group>"; };
+		B53332F3208776CE00497B10 /* NRAdCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NRAdCollectionViewCell.m; sourceTree = "<group>"; };
+		D520092B25249B0D34FE54FA /* Pods-NRAdViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NRAdViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NRAdViewDemo/Pods-NRAdViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B53332C320876F9300497B10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31F6ACD97174A5D898F106D3 /* libPods-NRAdViewDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94DD70E12FCB0952F6C0BB7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC8B71D39957630B229EBA3B /* libPods-NRAdViewDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADB1FAEC314FC51ACC72D115 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D520092B25249B0D34FE54FA /* Pods-NRAdViewDemo.debug.xcconfig */,
+				50315F3DD2A1FD828DCB0F42 /* Pods-NRAdViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B53332BD20876F9300497B10 = {
+			isa = PBXGroup;
+			children = (
+				B53332C820876F9300497B10 /* NRAdViewDemo */,
+				B53332C720876F9300497B10 /* Products */,
+				ADB1FAEC314FC51ACC72D115 /* Pods */,
+				94DD70E12FCB0952F6C0BB7B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B53332C720876F9300497B10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B53332C620876F9300497B10 /* NRAdViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B53332C820876F9300497B10 /* NRAdViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B53332DF20876F9C00497B10 /* NRAdView */,
+				B53332C920876F9300497B10 /* AppDelegate.h */,
+				B53332CA20876F9300497B10 /* AppDelegate.m */,
+				B53332CC20876F9300497B10 /* ViewController.h */,
+				B53332CD20876F9300497B10 /* ViewController.m */,
+				B53332CF20876F9300497B10 /* Main.storyboard */,
+				B53332D220876F9400497B10 /* Assets.xcassets */,
+				B53332D420876F9400497B10 /* LaunchScreen.storyboard */,
+				B53332D720876F9400497B10 /* Info.plist */,
+				B53332D820876F9400497B10 /* main.m */,
+			);
+			path = NRAdViewDemo;
+			sourceTree = "<group>";
+		};
+		B53332DF20876F9C00497B10 /* NRAdView */ = {
+			isa = PBXGroup;
+			children = (
+				B53332E0208770BE00497B10 /* NRAdCollectionViewLayout.h */,
+				B53332E1208770BE00497B10 /* NRAdCollectionViewLayout.m */,
+				B53332E3208772F400497B10 /* NRAdView.h */,
+				B53332E4208772F400497B10 /* NRAdView.m */,
+				B53332EC208774AF00497B10 /* NRAdViewRenderDelegate.h */,
+				B53332EF2087765B00497B10 /* NRAdBannerView.h */,
+				B53332F02087765B00497B10 /* NRAdBannerView.m */,
+				B53332F2208776CE00497B10 /* NRAdCollectionViewCell.h */,
+				B53332F3208776CE00497B10 /* NRAdCollectionViewCell.m */,
+			);
+			path = NRAdView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B53332C520876F9300497B10 /* NRAdViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B53332DC20876F9400497B10 /* Build configuration list for PBXNativeTarget "NRAdViewDemo" */;
+			buildPhases = (
+				A7DF3EB861DE2502A01931F6 /* [CP] Check Pods Manifest.lock */,
+				B53332C220876F9300497B10 /* Sources */,
+				B53332C320876F9300497B10 /* Frameworks */,
+				B53332C420876F9300497B10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NRAdViewDemo;
+			productName = NRAdViewDemo;
+			productReference = B53332C620876F9300497B10 /* NRAdViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B53332BE20876F9300497B10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Longer;
+				TargetAttributes = {
+					B53332C520876F9300497B10 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = B53332C120876F9300497B10 /* Build configuration list for PBXProject "NRAdViewDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B53332BD20876F9300497B10;
+			productRefGroup = B53332C720876F9300497B10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B53332C520876F9300497B10 /* NRAdViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B53332C420876F9300497B10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53332D620876F9400497B10 /* LaunchScreen.storyboard in Resources */,
+				B53332D320876F9400497B10 /* Assets.xcassets in Resources */,
+				B53332D120876F9300497B10 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A7DF3EB861DE2502A01931F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NRAdViewDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B53332C220876F9300497B10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53332CE20876F9300497B10 /* ViewController.m in Sources */,
+				B53332D920876F9400497B10 /* main.m in Sources */,
+				B53332E5208772F400497B10 /* NRAdView.m in Sources */,
+				B53332CB20876F9300497B10 /* AppDelegate.m in Sources */,
+				B53332ED208774AF00497B10 /* NRAdViewRenderDelegate.h in Sources */,
+				B53332E2208770BE00497B10 /* NRAdCollectionViewLayout.m in Sources */,
+				B53332F12087765B00497B10 /* NRAdBannerView.m in Sources */,
+				B53332F4208776CE00497B10 /* NRAdCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B53332CF20876F9300497B10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B53332D020876F9300497B10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B53332D420876F9400497B10 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B53332D520876F9400497B10 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B53332DA20876F9400497B10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B53332DB20876F9400497B10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B53332DD20876F9400497B10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D520092B25249B0D34FE54FA /* Pods-NRAdViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NRAdViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.longer.thaibeauty.NRAdViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B53332DE20876F9400497B10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50315F3DD2A1FD828DCB0F42 /* Pods-NRAdViewDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NRAdViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.longer.thaibeauty.NRAdViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B53332C120876F9300497B10 /* Build configuration list for PBXProject "NRAdViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B53332DA20876F9400497B10 /* Debug */,
+				B53332DB20876F9400497B10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B53332DC20876F9400497B10 /* Build configuration list for PBXNativeTarget "NRAdViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B53332DD20876F9400497B10 /* Debug */,
+				B53332DE20876F9400497B10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B53332BE20876F9300497B10 /* Project object */;
+}
