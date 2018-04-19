@@ -14,7 +14,7 @@
 
 @implementation NRAdBannerView
 
-- (instancetype)initWithFrame:(CGRect)frame withData:(NSArray*)arrayData
+- (instancetype)initWithFrame:(CGRect)frame withData:(NSArray*)arrayData withDelegate:(id<NRAdViewDelegate>)delegate
 {
     self = [super initWithFrame:frame];
     if (self) {
@@ -30,7 +30,7 @@
             builder.infiniteCycle = 4.0f;
         }];
         adView.backgroundColor = [UIColor whiteColor];//[UIColor colorWithWhite:0.95 alpha:0.2];
-        adView.delegate = self;
+        adView.delegate = delegate;
         [adView play];
         _adView = adView;
         [self addSubview:adView];
@@ -39,15 +39,15 @@
     return self;
 }
 
-#pragma mark scAdViewDelegate
--(void)nr_scrollToIndex:(NSInteger)index
-{
-    
-}
-
--(void)nr_didClickAd:(id)adModel
-{
-    
-}
+//#pragma mark NRAdViewDelegate
+//-(void)nr_scrollToIndex:(NSInteger)index
+//{
+//
+//}
+//
+//-(void)nr_didClickAd:(id)adModel
+//{
+//
+//}
 
 @end

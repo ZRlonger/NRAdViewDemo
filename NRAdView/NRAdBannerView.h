@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "NRAdView.h"
 
-@interface NRAdBannerView : UIView<NRAdViewDelegate>
-- (instancetype)initWithFrame:(CGRect)frame withData:(NSArray*)arrayData;
+@interface NRAdBannerView : UIView
+- (instancetype)initWithFrame:(CGRect)frame withData:(NSArray*)arrayData withDelegate:(id<NRAdViewDelegate>)delegate;
 @end

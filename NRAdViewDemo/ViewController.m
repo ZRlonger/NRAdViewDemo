@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "NRAdBannerView.h"
 
-@interface ViewController ()
+@interface ViewController ()<NRAdViewDelegate>
 
 @end
 
@@ -19,7 +19,8 @@
     [super viewDidLoad];
     NRAdBannerView *bannerView = [[NRAdBannerView alloc] initWithFrame:CGRectMake(0, 50, self.view.bounds.size.width, 179) withData:@[@"http://seopic.699pic.com/photo/50050/5473.jpg_wh1200.jpg",
                                                                                                                     @"http://seopic.699pic.com/photo/50050/5473.jpg_wh1200.jpg",
-                                                                                                                    @"http://seopic.699pic.com/photo/50050/5473.jpg_wh1200.jpg"]];
+                                                                                                                    @"http://seopic.699pic.com/photo/50050/5473.jpg_wh1200.jpg"]
+                                  withDelegate:self];
     [self.view addSubview:bannerView];
 }
 
@@ -29,5 +30,15 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark NRAdViewDelegate
+-(void)nr_scrollToIndex:(NSInteger)index
+{
+
+}
+
+-(void)nr_didClickAd:(id)adModel
+{
+
+}
 
 @end
