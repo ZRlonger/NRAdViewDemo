@@ -80,6 +80,7 @@
 		B53332BD20876F9300497B10 = {
 			isa = PBXGroup;
 			children = (
+				B53332DF20876F9C00497B10 /* NRAdView */,
 				B53332C820876F9300497B10 /* NRAdViewDemo */,
 				B53332C720876F9300497B10 /* Products */,
 				ADB1FAEC314FC51ACC72D115 /* Pods */,
@@ -98,7 +99,6 @@
 		B53332C820876F9300497B10 /* NRAdViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				B53332DF20876F9C00497B10 /* NRAdView */,
 				B53332C920876F9300497B10 /* AppDelegate.h */,
 				B53332CA20876F9300497B10 /* AppDelegate.m */,
 				B53332CC20876F9300497B10 /* ViewController.h */,
