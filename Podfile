@@ -7,5 +7,5 @@ target 'NRAdViewDemo' do
 
   # Pods for NRAdViewDemo
   pod 'SDWebImage'
-  #pod 'SDWebImage/GIF'
+  pod 'SDWebImage/GIF'
 end

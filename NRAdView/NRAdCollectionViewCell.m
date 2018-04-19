@@ -8,9 +8,10 @@
 
 #import "NRAdCollectionViewCell.h"
 #import "UIImageView+WebCache.h"
+#import "FLAnimatedImageView.h"
 
 @interface NRAdCollectionViewCell()
-@property (nonatomic, strong) UIImageView *imgv;
+@property (nonatomic, strong) FLAnimatedImageView *imgv;
 @property (nonatomic, strong) UIView *bgView;
 @end
 
@@ -31,7 +32,7 @@
         _bgView.layer.shadowOffset = CGSizeMake(2, 2);
         [self.contentView addSubview:_bgView];
         
-        _imgv = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, self.frame.size.width-0, self.frame.size.height-0)];
+        _imgv = [[FLAnimatedImageView alloc] initWithFrame:CGRectMake(0, 0, self.frame.size.width-0, self.frame.size.height-0)];
         _imgv.backgroundColor = [UIColor greenColor];
         _imgv.contentMode = UIViewContentModeScaleAspectFill;
         _imgv.layer.masksToBounds = YES;
