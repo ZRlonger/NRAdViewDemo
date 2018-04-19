@@ -17,9 +17,9 @@
 		B53332E2208770BE00497B10 /* NRAdCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B53332E1208770BE00497B10 /* NRAdCollectionViewLayout.m */; };
 		B53332E5208772F400497B10 /* NRAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = B53332E4208772F400497B10 /* NRAdView.m */; };
 		B53332ED208774AF00497B10 /* NRAdViewRenderDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = B53332EC208774AF00497B10 /* NRAdViewRenderDelegate.h */; };
-		B53332F12087765B00497B10 /* NRAdBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B53332F02087765B00497B10 /* NRAdBannerView.m */; };
 		B53332F4208776CE00497B10 /* NRAdCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B53332F3208776CE00497B10 /* NRAdCollectionViewCell.m */; };
 		B5333312208839EF00497B10 /* NRAdViewResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B5333311208839EF00497B10 /* NRAdViewResources.bundle */; };
+		B5333359208891D000497B10 /* NRAdBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5333357208891D000497B10 /* NRAdBannerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,11 +40,11 @@
 		B53332E3208772F400497B10 /* NRAdView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NRAdView.h; sourceTree = "<group>"; };
 		B53332E4208772F400497B10 /* NRAdView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NRAdView.m; sourceTree = "<group>"; };
 		B53332EC208774AF00497B10 /* NRAdViewRenderDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NRAdViewRenderDelegate.h; sourceTree = "<group>"; };
-		B53332EF2087765B00497B10 /* NRAdBannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NRAdBannerView.h; sourceTree = "<group>"; };
-		B53332F02087765B00497B10 /* NRAdBannerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NRAdBannerView.m; sourceTree = "<group>"; };
 		B53332F2208776CE00497B10 /* NRAdCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NRAdCollectionViewCell.h; sourceTree = "<group>"; };
 		B53332F3208776CE00497B10 /* NRAdCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NRAdCollectionViewCell.m; sourceTree = "<group>"; };
 		B5333311208839EF00497B10 /* NRAdViewResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NRAdViewResources.bundle; sourceTree = "<group>"; };
+		B5333357208891D000497B10 /* NRAdBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NRAdBannerView.m; sourceTree = "<group>"; };
+		B5333358208891D000497B10 /* NRAdBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NRAdBannerView.h; sourceTree = "<group>"; };
 		D520092B25249B0D34FE54FA /* Pods-NRAdViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NRAdViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NRAdViewDemo/Pods-NRAdViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,10 +121,10 @@
 				B53332E3208772F400497B10 /* NRAdView.h */,
 				B53332E4208772F400497B10 /* NRAdView.m */,
 				B53332EC208774AF00497B10 /* NRAdViewRenderDelegate.h */,
-				B53332EF2087765B00497B10 /* NRAdBannerView.h */,
-				B53332F02087765B00497B10 /* NRAdBannerView.m */,
 				B53332F2208776CE00497B10 /* NRAdCollectionViewCell.h */,
 				B53332F3208776CE00497B10 /* NRAdCollectionViewCell.m */,
+				B5333358208891D000497B10 /* NRAdBannerView.h */,
+				B5333357208891D000497B10 /* NRAdBannerView.m */,
 			);
 			path = NRAdView;
 			sourceTree = "<group>";
@@ -231,12 +231,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B53332CE20876F9300497B10 /* ViewController.m in Sources */,
+				B5333359208891D000497B10 /* NRAdBannerView.m in Sources */,
 				B53332D920876F9400497B10 /* main.m in Sources */,
 				B53332E5208772F400497B10 /* NRAdView.m in Sources */,
 				B53332CB20876F9300497B10 /* AppDelegate.m in Sources */,
 				B53332ED208774AF00497B10 /* NRAdViewRenderDelegate.h in Sources */,
 				B53332E2208770BE00497B10 /* NRAdCollectionViewLayout.m in Sources */,
-				B53332F12087765B00497B10 /* NRAdBannerView.m in Sources */,
 				B53332F4208776CE00497B10 /* NRAdCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
