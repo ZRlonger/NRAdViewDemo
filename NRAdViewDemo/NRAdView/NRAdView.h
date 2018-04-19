@@ -82,11 +82,11 @@ typedef NS_ENUM(NSInteger,NRAdViewScrollDirection) {
 /**
  *  @brief 滑动到的广告的index
  */
--(void)sc_scrollToIndex:(NSInteger)index;
+-(void)nr_scrollToIndex:(NSInteger)index;
 /**
  *  @brief 点击了广告，返回广告信息
  */
--(void)sc_didClickAd:(id)adModel;
+-(void)nr_didClickAd:(id)adModel;
 
 @end
 

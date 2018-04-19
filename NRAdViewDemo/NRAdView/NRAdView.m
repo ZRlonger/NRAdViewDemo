@@ -175,6 +175,8 @@
         [self.collectionView scrollToItemAtIndexPath:to_indexPath atScrollPosition:UICollectionViewScrollPositionCenteredVertically animated:YES];
     }else{
         [self.collectionView scrollToItemAtIndexPath:to_indexPath atScrollPosition:UICollectionViewScrollPositionCenteredHorizontally animated:YES];
+        
+        
     }
 }
 #pragma mark -collection delegate/datasource
@@ -206,8 +208,8 @@
     if (indexPath.row == indexpathNew.row)
     {
         //点击了中间的广告
-        if (self.delegate &&[self.delegate respondsToSelector:@selector(sc_didClickAd:)]) {
-            [self.delegate sc_didClickAd:self.dataArray[indexPath.row]];
+        if (self.delegate &&[self.delegate respondsToSelector:@selector(nr_didClickAd:)]) {
+            [self.delegate nr_didClickAd:self.dataArray[indexPath.row]];
         }
     }
     else
@@ -250,8 +252,8 @@
 
 #pragma mark -layout delegate
 -(void)sc_collectioViewScrollToIndex:(NSInteger)index{
-    if (self.delegate &&[self.delegate respondsToSelector:@selector(sc_scrollToIndex:)]) {
-        [self.delegate sc_scrollToIndex:index%_builder.adArray.count];
+    if (self.delegate &&[self.delegate respondsToSelector:@selector(nr_scrollToIndex:)]) {
+        [self.delegate nr_scrollToIndex:index%_builder.adArray.count];
     }
 }
 

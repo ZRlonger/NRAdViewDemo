@@ -19,6 +19,7 @@
 		B53332ED208774AF00497B10 /* NRAdViewRenderDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = B53332EC208774AF00497B10 /* NRAdViewRenderDelegate.h */; };
 		B53332F12087765B00497B10 /* NRAdBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B53332F02087765B00497B10 /* NRAdBannerView.m */; };
 		B53332F4208776CE00497B10 /* NRAdCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B53332F3208776CE00497B10 /* NRAdCollectionViewCell.m */; };
+		B5333312208839EF00497B10 /* NRAdViewResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B5333311208839EF00497B10 /* NRAdViewResources.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		B53332F02087765B00497B10 /* NRAdBannerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NRAdBannerView.m; sourceTree = "<group>"; };
 		B53332F2208776CE00497B10 /* NRAdCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NRAdCollectionViewCell.h; sourceTree = "<group>"; };
 		B53332F3208776CE00497B10 /* NRAdCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NRAdCollectionViewCell.m; sourceTree = "<group>"; };
+		B5333311208839EF00497B10 /* NRAdViewResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NRAdViewResources.bundle; sourceTree = "<group>"; };
 		D520092B25249B0D34FE54FA /* Pods-NRAdViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NRAdViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NRAdViewDemo/Pods-NRAdViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,6 +115,7 @@
 		B53332DF20876F9C00497B10 /* NRAdView */ = {
 			isa = PBXGroup;
 			children = (
+				B53332F5208833FF00497B10 /* Resources */,
 				B53332E0208770BE00497B10 /* NRAdCollectionViewLayout.h */,
 				B53332E1208770BE00497B10 /* NRAdCollectionViewLayout.m */,
 				B53332E3208772F400497B10 /* NRAdView.h */,
@@ -124,6 +127,14 @@
 				B53332F3208776CE00497B10 /* NRAdCollectionViewCell.m */,
 			);
 			path = NRAdView;
+			sourceTree = "<group>";
+		};
+		B53332F5208833FF00497B10 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B5333311208839EF00497B10 /* NRAdViewResources.bundle */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +198,7 @@
 				B53332D620876F9400497B10 /* LaunchScreen.storyboard in Resources */,
 				B53332D320876F9400497B10 /* Assets.xcassets in Resources */,
 				B53332D120876F9300497B10 /* Main.storyboard in Resources */,
+				B5333312208839EF00497B10 /* NRAdViewResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,7 +380,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = NRAdViewDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.longer.thaibeauty.NRAdViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -382,7 +397,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = NRAdViewDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.longer.thaibeauty.NRAdViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

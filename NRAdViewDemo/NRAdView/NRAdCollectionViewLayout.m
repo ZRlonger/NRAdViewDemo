@@ -272,6 +272,5 @@ CGSize SC_ScreenSize() {
     });
     return size;
 }
-
 @end
 

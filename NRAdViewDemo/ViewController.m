@@ -17,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NRAdBannerView *bannerView = [[NRAdBannerView alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, 179) withData:@[@"http://seopic.699pic.com/photo/50050/5473.jpg_wh1200.jpg",
+    NRAdBannerView *bannerView = [[NRAdBannerView alloc] initWithFrame:CGRectMake(0, 50, self.view.bounds.size.width, 179) withData:@[@"http://seopic.699pic.com/photo/50050/5473.jpg_wh1200.jpg",
                                                                                                                     @"http://seopic.699pic.com/photo/50050/5473.jpg_wh1200.jpg",
                                                                                                                     @"http://seopic.699pic.com/photo/50050/5473.jpg_wh1200.jpg"]];
     [self.view addSubview:bannerView];
